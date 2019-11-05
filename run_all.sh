@@ -21,3 +21,8 @@ g++ hello.cpp -o hellop
 # matlab
 echo "excute Matlab"
 matlab -nodisplay -nosplash -nodesktop -r "run('hello.m');exit;" | tail -n +11
+
+# Java
+echo "excute Java"
+javac hello.java
+java hello
